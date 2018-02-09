@@ -1,5 +1,7 @@
 # Predicting House Prices with Advanced Regression Techniques
 
+![picture](http://rentinginla.com/wp-content/uploads/2015/12/Buying.jpg)
+
 ## The Task
 The goal of this project was to use EDA, visualization, data cleaning, preprocessing, and linear models to predict home prices given the features of the home, and interpret your linear models to find out what features add value to a home.  The data was originall taken from Kaggle. 
 
