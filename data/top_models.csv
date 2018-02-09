@@ -1,0 +1,17 @@
+,dataset,model,name,preprocessing,score
+9,test,"LassoCV(alphas=array([  1.00000e-02,   1.00000e-01,   1.00000e+00,   1.00000e+01,
+         1.00000e+02,   1.00000e+03,   1.00000e+04]),
+    copy_X=True, cv=None, eps=0.001, fit_intercept=True, max_iter=1000,
+    n_alphas=100, n_jobs=1, normalize=False, positive=False,
+    precompute='auto', random_state=None, selection='cyclic', tol=0.0001,
+    verbose=False)",lasso,scaled,0.8708811803709471
+11,test,"ElasticNetCV(alphas=array([  1.00000e-02,   1.00000e-01,   1.00000e+00,   1.00000e+01,
+         1.00000e+02,   1.00000e+03,   1.00000e+04]),
+       copy_X=True, cv=None, eps=0.001, fit_intercept=True, l1_ratio=0.5,
+       max_iter=1000, n_alphas=100, n_jobs=1, normalize=False,
+       positive=False, precompute='auto', random_state=None,
+       selection='cyclic', tol=0.0001, verbose=0)",elastic net,scaled,0.8552059992855636
+7,test,"RidgeCV(alphas=array([  1.00000e-02,   1.00000e-01,   1.00000e+00,   1.00000e+01,
+         1.00000e+02,   1.00000e+03,   1.00000e+04]),
+    cv=None, fit_intercept=True, gcv_mode=None, normalize=False,
+    scoring=None, store_cv_values=False)",ridge,scaled,0.8325365372218565
